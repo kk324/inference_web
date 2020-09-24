@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head>
+<title>{{ csvファイルをアップロードする }}</title>
+</head>
+<body>
+    <form method="POST" action="/uploads" enctype="multipart/form-data">
+        <input type="file" accept="text/csv" name="file">
+        <button type="submit">推論開始</button>
+        
+        </form>
+</body>
+</html>
