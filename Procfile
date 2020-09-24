@@ -1,1 +1,1 @@
-web: TRANK
+web: gunicorn app:app --log-file=-
